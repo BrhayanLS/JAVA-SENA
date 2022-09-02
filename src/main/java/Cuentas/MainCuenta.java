@@ -1,7 +1,9 @@
 package Cuentas;
+import java.util.Scanner;
 
 public class MainCuenta {
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
         
         Cuenta ct1 = new Cuenta();
         ct1.setnombreTitular("Usuario1");
